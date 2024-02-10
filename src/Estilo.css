@@ -1,0 +1,96 @@
+.Proyects-Card {
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border-radius: 5%;
+  margin-left: 10px;
+  padding: 30px;
+  margin-top: 5px;
+}
+
+.Proyects-Card-img {
+  margin-top: 10px;
+  width: 300px;
+  height: 150px;
+}
+
+.Proyects-Card-Text {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.Proyects-Card-Parrf {
+  text-align: center;
+  width: 100%;
+}
+
+.Code-Button {
+  width: 100px;
+  height: 50px;
+  background: black;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Visite-Buttom {
+  width: 100px;
+  height: 50px;
+  background: black;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/* Hover   */
+
+.Code-Button:hover {
+  width: 100px;
+  height: 50px;
+  background: black;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  font-weight: bold;
+  cursor: pointer;
+  text-indent: -9999px;
+  background-image: url(/img/botongithub.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Visite-Buttom:hover {
+  width: 100px;
+  height: 50px;
+  background: black;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-image: url(/img/botonenlance.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+.Proyects-Card-img:hover {
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    transform: scale(1.5);
+    transition: .3seg;
+  }
+
+  @media (max-width:1024px)
+  {
+    .Proyects-Card
+    {
+        width: 100%;
+        display: flex;
+    }
+  }
