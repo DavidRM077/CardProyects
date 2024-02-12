@@ -86,6 +86,36 @@
     transition: .3seg;
   }
 
+ 
+
+.Like
+{
+ 
+  display: flex;
+  background-image: url(/img/corazon.png);
+  width: 40px;
+  height: 50px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  right: 100%;
+transform: translate(100px 101px);
+}
+
+.DisLike
+{
+  display: flex;
+  background-image: url(/img/me-gusta.png);
+  width: 40px;
+  height: 50px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  right: 100%;
+transform: translate(100px 101px);
+}
+
+
   @media (max-width:1024px)
   {
     .Proyects-Card
